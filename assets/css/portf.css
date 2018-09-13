@@ -1,17 +1,48 @@
-.parent {
-  	position: relative;
- 	 top: 0;
- 	 left: 0;
-}
-.background {
- 	 position: relative;
- 	 top: 0;
- 	 left: 0;
-	width: 1000px;
+h1 {
+	padding-top: 50px;
+	padding-bottom: 25px;
+	text-align: center;
 }
 
 .outlineMe {
- 	 position: absolute;
- 	 top: 30px;
- 	 left: 70px;
+	position: absolute;
+ 	left: 200px;
+	width: 500px;
+}
+
+#container {
+	 background: url("../js/background.jpg") no-repeat center; 
+ 	 background-size: cover;
+ 	 height: 500px;
+ 	 position: relative;
+}
+
+#blueIconContainer {
+  	position: relative;
+  	top: 0;
+	left: 0;
+	z-index: 1;
+}
+
+#blueCircleIcon {
+	margin-top: 75px;
+	margin-left: 25%;
+	height: 350px;
+	width: 350px;
+	position: relative;
+ 	top: 0px;
+ 	left: 0px;
+	float: left;
+	animation-duration: 4s;
+}
+
+#blueCircle {
+	margin-top: 75px;
+	margin-left: 25%;
+	height: 350px;
+	width: 350px;
+	position: absolute;
+ 	top: 0px;
+  	left: 0px;
+	float: left;
 }
