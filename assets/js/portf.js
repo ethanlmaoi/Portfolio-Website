@@ -8,13 +8,23 @@ $(document).ready(function() {
 });
 
 $("#blueIconContainer").hover(function() {
+	$("#blueCircleIconContainer").animate({
+		height: "200px",
+		width: "200px",		
+	});
+	
 	$("#blueCircleIcon").animate({
 		height: "200px",
 		width: "200px",
-		
+			
 	});}, function() {
-		$("#blueCircleIcon").animate({
+		$("#blueCircleIconContainer").animate({
 		height: "350px",
 		width: "350px",
-		});
 	});
+	
+	$("#blueCircleIcon").animate({
+		height: "350px",
+		width: "350px",
+	});
+});

@@ -18,31 +18,29 @@ h1 {
 }
 
 #blueIconContainer {
-  	position: relative;
-  	top: 0;
-	left: 0;
-	z-index: 1;
+	margin: auto;
+	margin-left: 25%;
+  	position: relative;	
+	height: 350px;
+	width: 350px;
+	border: 1px solid yellow;
 }
 
 #blueCircleIcon {
-	margin-top: 75px;
-	margin-left: 25%;
+	border: 1px solid red;
 	height: 350px;
 	width: 350px;
+	animation-duration: 2s;
+}
+
+#blueCircleIconContainer {
+	margin: 0 auto;
 	position: relative;
- 	top: 0px;
- 	left: 0px;
-	float: left;
-	animation-duration: 4s;
 }
 
 #blueCircle {
-	margin-top: 75px;
-	margin-left: 25%;
 	height: 350px;
 	width: 350px;
 	position: absolute;
- 	top: 0px;
-  	left: 0px;
 	float: left;
 }
