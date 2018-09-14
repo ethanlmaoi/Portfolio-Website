@@ -18,16 +18,14 @@ h1 {
 }
 
 #blueIconContainer {
-	margin: auto;
 	margin-left: 25%;
-  	position: relative;	
+  	position: absolute;	
 	height: 350px;
 	width: 350px;
 	border: 1px solid yellow;
 }
 
 #blueCircleIcon {
-	border: 1px solid red;
 	height: 350px;
 	width: 350px;
 	animation-duration: 2s;
@@ -36,6 +34,7 @@ h1 {
 #blueCircleIconContainer {
 	margin: 0 auto;
 	position: relative;
+	border: 1px solid green;
 }
 
 #blueCircle {
@@ -43,4 +42,18 @@ h1 {
 	width: 350px;
 	position: absolute;
 	float: left;
+}
+
+#hoverFXContainer {
+	margin-left: 25%;
+	height: 350px;
+	width: 350px;
+	border: 1px solid red;
+	position: absolute;
+}
+
+#hoverFX {
+	height: 350px;
+	width: 350px;
+	opacity: 0;
 }

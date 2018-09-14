@@ -7,15 +7,16 @@ $(document).ready(function() {
 
 });
 
-$("#blueIconContainer").hover(function() {
+$("#hoverFXContainer").hover(function() {
 	$("#blueCircleIconContainer").animate({
-		height: "200px",
-		width: "200px",		
+		height: "150px",
+		width: "150px",
+		paddingTop: "15px",
 	});
 	
 	$("#blueCircleIcon").animate({
-		height: "200px",
-		width: "200px",
+		height: "150px",
+		width: "150px",
 			
 	});}, function() {
 		$("#blueCircleIconContainer").animate({
