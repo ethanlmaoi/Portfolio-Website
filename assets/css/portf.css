@@ -10,18 +10,31 @@ h1 {
 	width: 500px;
 }
 
+.icon {
+	transform: scale(0.5, 0.5);
+}
+
 #aboutMe {
-	margin-left: 25%;
-/*	transform: scale(0.75, 0.75);*/
+	margin-left: 20%;
 }
 
 #projects {
-	margin-left: 50%;
+	margin-left: 40%;
 /*	transform: scale(0.75, 0.75);*/
 }
 
 #coursework {
-	margin-left: 75%;
+	margin-left: 60%;
+/*	transform: scale(0.75, 0.75);*/
+}
+
+#work {
+	margin-left: 80%;
+/*	transform: scale(0.75, 0.75);*/
+}
+
+#skills {
+	margin-left: 30%;
 /*	transform: scale(0.75, 0.75);*/
 }
 
@@ -100,3 +113,24 @@ h1 {
     transform: translateY(92%);
 	opacity: 0;
 }
+
+.workTXT {
+	line-height: 40px;
+	color: #F0AFFC;
+	font-size: 40px;
+	font-family: 'Baloo Tammudu', cursive;
+	top: 20%;
+    transform: translateY(103%);
+	opacity: 0;
+}
+
+.skillsTXT {
+	line-height: 45px;
+	color: #F7CA76;
+	font-size: 55px;
+	font-family: 'Baloo Tammudu', cursive;
+	top: 70%;
+    transform: translateY(150%);
+	opacity: 0;
+}
+

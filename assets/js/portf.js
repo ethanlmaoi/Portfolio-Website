@@ -133,3 +133,85 @@ $("#coursework").hover(function() {
 	});
 
 });
+
+$("#work").hover(function() {
+	$("#work .circleIconContainer").animate({
+		height: "280px",
+		width: "280px",
+	});
+	
+	$("#work .hoverFX").animate({
+		opacity: "0.35",
+	});
+	
+	$("#work .circleIcon").animate({
+		height: "280px",
+		width: "280px",
+			
+	});
+	
+	$("#work .workTXT").animate({
+		opacity: "1",
+	});
+
+	}, function() {
+		$("#work .circleIconContainer").animate({
+		height: "350px",
+		width: "350px",
+	});
+	
+	$("#work .hoverFX").animate({
+		opacity: "0",
+	});
+	
+	$("#work .circleIcon").animate({
+		height: "350px",
+		width: "350px",
+	});
+	
+	$("#work .workTXT").animate({
+		opacity: "0",
+	});
+
+});
+
+$("#skills").hover(function() {
+	$("#skills .circleIconContainer").animate({
+		height: "295px",
+		width: "295px",
+	});
+	
+	$("#skills .hoverFX").animate({
+		opacity: "0.26",
+	});
+	
+	$("#skills .circleIcon").animate({
+		height: "295px",
+		width: "295px",
+			
+	});
+	
+	$("#skills .skillsTXT").animate({
+		opacity: "1",
+	});
+
+	}, function() {
+		$("#skills .circleIconContainer").animate({
+		height: "350px",
+		width: "350px",
+	});
+	
+	$("#skills .hoverFX").animate({
+		opacity: "0",
+	});
+	
+	$("#skills .circleIcon").animate({
+		height: "350px",
+		width: "350px",
+	});
+	
+	$("#skills .skillsTXT").animate({
+		opacity: "0",
+	});
+
+});
