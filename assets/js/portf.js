@@ -7,33 +7,129 @@ $(document).ready(function() {
 
 });
 
-$("#hoverFXContainer").hover(function() {
-	$("#blueCircleIconContainer").animate({
-		height: "150px",
-		width: "150px",
-		paddingTop: "15px",
+$("#aboutMe").hover(function() {
+	$("#aboutMe .circleIconContainer").animate({
+		height: "250px",
+		width: "250px",
+		paddingBottom: "30px",
 	});
 	
-	$("#hoverFX").animate({
-		opacity: "0.35",
+	$("#aboutMe .hoverFX").animate({
+		opacity: "0.45",
 	});
 	
-	$("#blueCircleIcon").animate({
-		height: "150px",
-		width: "150px",
+	$("#aboutMe .circleIcon").animate({
+		height: "250px",
+		width: "250px",
 			
-	});}, function() {
-		$("#blueCircleIconContainer").animate({
+	});
+	
+	$("#aboutMe .aboutMeTXT").animate({
+		opacity: "1",
+	});
+
+	}, function() {
+		$("#aboutMe .circleIconContainer").animate({
 		height: "350px",
 		width: "350px",
+		paddingBottom: "0px",
 	});
 	
-	$("#hoverFX").animate({
+	$("#aboutMe .hoverFX").animate({
 		opacity: "0",
 	});
 	
-	$("#blueCircleIcon").animate({
+	$("#aboutMe .circleIcon").animate({
 		height: "350px",
 		width: "350px",
 	});
+	
+	$("#aboutMe .aboutMeTXT").animate({
+		opacity: "0",
+	});
+	
+});
+
+$("#projects").hover(function() {
+	$("#projects .circleIconContainer").animate({
+		height: "275px",
+		width: "275px",
+		paddingTop: "3px",
+	});
+	
+	$("#projects .hoverFX").animate({
+		opacity: "0.45",
+	});
+	
+	$("#projects .circleIcon").animate({
+		height: "275px",
+		width: "275px",
+			
+	});
+	
+	$("#projects .projectTXT").animate({
+		opacity: "1",
+	});
+
+
+	}, function() {
+		$("#projects .circleIconContainer").animate({
+		height: "350px",
+		width: "350px",
+		paddingTop: "0px",
+	});
+	
+	$("#projects .hoverFX").animate({
+		opacity: "0",
+	});
+	
+	$("#projects .circleIcon").animate({
+		height: "350px",
+		width: "350px",
+	});
+
+	$("#projects .projectTXT").animate({
+		opacity: "0",
+	});
+});
+
+$("#coursework").hover(function() {
+	$("#coursework .circleIconContainer").animate({
+		height: "270px",
+		width: "270px",
+	});
+	
+	$("#coursework .hoverFX").animate({
+		opacity: "0.35",
+	});
+	
+	$("#coursework .circleIcon").animate({
+		height: "270px",
+		width: "270px",
+			
+	});
+	
+	$("#coursework .courseworkTXT").animate({
+		opacity: "1",
+	});
+
+	}, function() {
+		$("#coursework .circleIconContainer").animate({
+		height: "350px",
+		width: "350px",
+	});
+	
+	$("#coursework .hoverFX").animate({
+		opacity: "0",
+	});
+	
+	$("#coursework .circleIcon").animate({
+		height: "350px",
+		width: "350px",
+	});
+	
+	$("#coursework .courseworkTXT").animate({
+		opacity: "0",
+	});
+
 });

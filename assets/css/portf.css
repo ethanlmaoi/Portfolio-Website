@@ -10,6 +10,21 @@ h1 {
 	width: 500px;
 }
 
+#aboutMe {
+	margin-left: 25%;
+/*	transform: scale(0.75, 0.75);*/
+}
+
+#projects {
+	margin-left: 50%;
+/*	transform: scale(0.75, 0.75);*/
+}
+
+#coursework {
+	margin-left: 75%;
+/*	transform: scale(0.75, 0.75);*/
+}
+
 #container {
 	 background: url("../js/background.jpg") no-repeat center; 
  	 background-size: cover;
@@ -17,54 +32,71 @@ h1 {
  	 position: relative;
 }
 
-#blueIconContainer {
-	margin-left: 25%;
+.iconContainer {
   	position: absolute;	
 	height: 350px;
 	width: 350px;
-	border: 1px solid yellow;
+	
 }
 
-#blueCircleIcon {
+.circleIcon {
 	height: 350px;
 	width: 350px;
 	animation-duration: 2s;
 }
 
-#blueCircleIconContainer {
+.circleIconContainer {
 	margin: 0 auto;
 	position: relative;
-	border: 1px solid green;
+	padding-bottom: 0px;
 }
 
-#blueCircle {
+.circle {
 	height: 350px;
 	width: 350px;
 	position: absolute;
 	float: left;
 }
 
-#hoverFXContainer {
-	margin-left: 25%;
+.hoverFXContainer {
 	height: 350px;
 	width: 350px;
-	border: 1px solid red;
 	position: absolute;
 }
 
-#hoverFX {
+.hoverFX {
 	position: absolute;
 	height: 350px;
 	width: 350px;
 	opacity: 0;
 }
 
-#aboutMeTXTContainer {
-	position: absolute;
-	margin: auto;	
-	
+.aboutMeTXT {
+	line-height: 50px;
+	color: #AFD7FC;
+	font-size: 55px;
+	font-family: 'Baloo Tammudu', cursive;
+	top: 70%;
+    transform: translateY(83%);
+	opacity: 0;
 }
 
-#aboutMeTXT {
-	
+.projectTXT {
+	line-height: 50px;
+	color: #FCAFAF;
+	font-size: 55px;
+	font-family: 'Baloo Tammudu', cursive;
+	top: 20%;
+    transform: translateY(125%);
+	opacity: 0;
+}
+
+.courseworkTXT {
+	line-height: 45px;
+	color: #BEFCAF;
+	font-size: 55px;
+	font-family: 'Baloo Tammudu', cursive;
+	top: 20%;
+    transform: translateY(92%);
+	opacity: 0;
 }
