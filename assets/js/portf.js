@@ -14,6 +14,10 @@ $("#hoverFXContainer").hover(function() {
 		paddingTop: "15px",
 	});
 	
+	$("#hoverFX").animate({
+		opacity: "0.35",
+	});
+	
 	$("#blueCircleIcon").animate({
 		height: "150px",
 		width: "150px",
@@ -22,6 +26,10 @@ $("#hoverFXContainer").hover(function() {
 		$("#blueCircleIconContainer").animate({
 		height: "350px",
 		width: "350px",
+	});
+	
+	$("#hoverFX").animate({
+		opacity: "0",
 	});
 	
 	$("#blueCircleIcon").animate({

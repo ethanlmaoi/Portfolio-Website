@@ -53,7 +53,18 @@ h1 {
 }
 
 #hoverFX {
+	position: absolute;
 	height: 350px;
 	width: 350px;
 	opacity: 0;
+}
+
+#aboutMeTXTContainer {
+	position: absolute;
+	margin: auto;	
+	
+}
+
+#aboutMeTXT {
+	
 }
