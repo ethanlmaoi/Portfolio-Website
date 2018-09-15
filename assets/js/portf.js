@@ -35,24 +35,30 @@ $(document).ready(function() {
 
 function collapseBtns()
 {
+	
+	$("#aboutMe").css("position","fixed");
+	$("#projects").css("position","fixed");
+	$("#coursework").css("position","fixed");
+	$("#work").css("position","fixed");
+	$("#skills").css("position","fixed");
+	
 	$("#aboutMe").animate({
 		marginLeft: "0",
-    	bottom: "0",
+    	bottom: "400",
     	right: "0",
 		height: "150px",
     	width: "200px",
 	});
 	$("#projects").animate({
 		marginLeft: "0",
-    	bottom: "100",
+    	bottom: "500",
     	right: "0",
-		marginBottom: "0",
 		height: "150px",
     	width: "200px",
 	});
 	$("#coursework").animate({
 		marginLeft: "0",
-    	bottom: "200",
+    	bottom: "600",
     	right: "0",
 		marginBottom: "0",
 		height: "150px",
@@ -60,7 +66,7 @@ function collapseBtns()
 	});
 	$("#work").animate({
 		marginLeft: "0",
-    	bottom: "300",
+    	bottom: "700",
     	right: "0",
 		marginBottom: "0",
 		height: "150px",
@@ -68,7 +74,7 @@ function collapseBtns()
 	});
 	$("#skills").animate({
 		marginLeft: "0",
-    	bottom: "400",
+    	bottom: "800",
     	right: "0",
 		marginBottom: "0",
 		height: "150px",
