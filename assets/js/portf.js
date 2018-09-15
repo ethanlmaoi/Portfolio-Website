@@ -1,3 +1,6 @@
+
+var btnShrunk = false; // becomes true when they shrink and go to the side
+
 $(document).ready(function() {
     $(".outlineMe").fadeIn(2300);
 	
@@ -88,7 +91,10 @@ function collapseBtns()
 }
 
 $("#aboutMe").click(function() {
-	collapseBtns();
+	if (!btnShrunk) { collapseBtns(); }
+	$('html, body').animate({
+        scrollTop: $("#interactive").offset().top
+    }, 900);
 });
 
 $("#projects").click(function() {
