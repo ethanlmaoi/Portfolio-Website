@@ -15,14 +15,14 @@ h1 {
 
 #interactive {
 	width: 100%;
-	height: 500px;
+	height: 1000px;
 	background: #C4F3FF;
 }
 
 .outlineMe {
 	position: absolute;
  	left: 714px;
-	width: 500px;
+	width: 600px;
 }
 
 .icon {
@@ -37,7 +37,6 @@ h1 {
 #aboutMe {
 	margin-left: 0%;
 	opacity: 0;
-	border: 1px solid red;
 	height: 350px;
 	width: 350px;
 	position: absolute;
@@ -46,7 +45,6 @@ h1 {
 #projects {
 	margin-left: 0%;
 	opacity: 0;
-	border: 1px solid red;
 	height: 350px;
 	width: 350px;
 	position: absolute;
@@ -81,8 +79,8 @@ h1 {
 	background: url("../js/background.png") no-repeat center; 
  	background-size: cover;
 */
- 	height: 500px;
- 	position: relative;	
+ 	height: 600px;
+ 	position: relative;
 	margin-top: 0px;
 }
 
@@ -90,7 +88,7 @@ h1 {
   	position: absolute;	
 	height: 350px;
 	width: 350px;
-	
+	border: 1px solid red;
 }
 
 .circleIcon {

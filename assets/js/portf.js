@@ -39,26 +39,40 @@ function collapseBtns()
 		marginLeft: "0",
     	bottom: "0",
     	right: "0",
+		height: "150px",
+    	width: "200px",
 	});
 	$("#projects").animate({
 		marginLeft: "0",
     	bottom: "100",
     	right: "0",
+		marginBottom: "0",
+		height: "150px",
+    	width: "200px",
 	});
 	$("#coursework").animate({
 		marginLeft: "0",
     	bottom: "200",
     	right: "0",
+		marginBottom: "0",
+		height: "150px",
+    	width: "200px",
 	});
 	$("#work").animate({
 		marginLeft: "0",
     	bottom: "300",
     	right: "0",
+		marginBottom: "0",
+		height: "150px",
+    	width: "200px",
 	});
 	$("#skills").animate({
 		marginLeft: "0",
     	bottom: "400",
     	right: "0",
+		marginBottom: "0",
+		height: "150px",
+    	width: "200px",
 	});
 	$("#aboutMe").addClass("shrink");
 	$("#projects").addClass("shrink");
