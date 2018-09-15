@@ -1,9 +1,35 @@
 $(document).ready(function() {
     $(".outlineMe").fadeIn(2300);
+	
 	$(".outlineMe").animate({
-        left: '0px', // how far you want to move to the left
-        opacity: '0.80', // how much you want to blend
+        left: '120px', // how far you want to move to the left
+        opacity: '1.0', // how much you want to blend
     });
+	
+	$("#aboutMe").delay(2300).animate({
+		marginLeft: "15%",
+		opacity: "1",
+    }, 2000);
+	
+	$("#projects").delay(2300).animate({
+		marginLeft: "30%",
+		opacity: "1",
+    }, 2000);
+	
+	$("#coursework").delay(2300).animate({
+		marginLeft: "45%",
+		opacity: "1",
+    }, 2000);
+	
+	$("#work").delay(2300).animate({
+		marginLeft: "60%",
+		opacity: "1",
+    }, 2000);
+	
+	$("#skills").delay(2300).animate({
+		marginLeft: "75%",
+		opacity: "1",
+    }, 2000);
 
 });
 
@@ -52,8 +78,8 @@ $("#aboutMe").hover(function() {
 
 $("#projects").hover(function() {
 	$("#projects .circleIconContainer").animate({
-		height: "275px",
-		width: "275px",
+		height: "285px",
+		width: "285px",
 		paddingTop: "3px",
 	});
 	
@@ -62,8 +88,8 @@ $("#projects").hover(function() {
 	});
 	
 	$("#projects .circleIcon").animate({
-		height: "275px",
-		width: "275px",
+		height: "285px",
+		width: "285px",
 			
 	});
 	
@@ -100,7 +126,7 @@ $("#coursework").hover(function() {
 	});
 	
 	$("#coursework .hoverFX").animate({
-		opacity: "0.35",
+		opacity: "0.27",
 	});
 	
 	$("#coursework .circleIcon").animate({
@@ -141,7 +167,7 @@ $("#work").hover(function() {
 	});
 	
 	$("#work .hoverFX").animate({
-		opacity: "0.35",
+		opacity: "0.4",
 	});
 	
 	$("#work .circleIcon").animate({
@@ -182,7 +208,7 @@ $("#skills").hover(function() {
 	});
 	
 	$("#skills .hoverFX").animate({
-		opacity: "0.26",
+		opacity: "0.2",
 	});
 	
 	$("#skills .circleIcon").animate({

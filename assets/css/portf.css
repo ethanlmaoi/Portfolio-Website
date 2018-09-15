@@ -5,40 +5,43 @@ h1 {
 }
 
 .outlineMe {
+	border: 1px solid red;
 	position: absolute;
- 	left: 200px;
+ 	left: 600px;
 	width: 500px;
 }
 
 .icon {
-	transform: scale(0.5, 0.5);
+	transform: scale(0.6, 0.6);
+	padding-top: 52px;
 }
 
 #aboutMe {
-	margin-left: 20%;
+	margin-left: 0%;
+	opacity: 0;
 }
 
 #projects {
-	margin-left: 40%;
-/*	transform: scale(0.75, 0.75);*/
+	margin-left: 0%;
+	opacity: 0;
 }
 
 #coursework {
-	margin-left: 60%;
-/*	transform: scale(0.75, 0.75);*/
+	margin-left: 0%;
+	opacity: 0;
 }
 
 #work {
-	margin-left: 80%;
-/*	transform: scale(0.75, 0.75);*/
+	margin-left: 0%;
+	opacity: 0;
 }
 
 #skills {
-	margin-left: 30%;
-/*	transform: scale(0.75, 0.75);*/
+	margin-left: 0%;
+	opacity: 0;
 }
 
-#container {
+#background {
 	 background: url("../js/background.jpg") no-repeat center; 
  	 background-size: cover;
  	 height: 500px;
@@ -46,6 +49,7 @@ h1 {
 }
 
 .iconContainer {
+	border: 1px solid red;
   	position: absolute;	
 	height: 350px;
 	width: 350px;
@@ -100,7 +104,7 @@ h1 {
 	font-size: 55px;
 	font-family: 'Baloo Tammudu', cursive;
 	top: 20%;
-    transform: translateY(125%);
+    transform: translateY(130%);
 	opacity: 0;
 }
 
