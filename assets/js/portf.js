@@ -33,54 +33,58 @@ $(document).ready(function() {
 
 });
 
-$("#aboutMe").click(function() {
-	$(this).animate({
+function collapseBtns()
+{
+	$("#aboutMe").animate({
 		marginLeft: "0",
     	bottom: "0",
     	right: "0",
 	});
-	
-	$(this).addClass("shrink");
+	$("#projects").animate({
+		marginLeft: "0",
+    	bottom: "100",
+    	right: "0",
+	});
+	$("#coursework").animate({
+		marginLeft: "0",
+    	bottom: "200",
+    	right: "0",
+	});
+	$("#work").animate({
+		marginLeft: "0",
+    	bottom: "300",
+    	right: "0",
+	});
+	$("#skills").animate({
+		marginLeft: "0",
+    	bottom: "400",
+    	right: "0",
+	});
+	$("#aboutMe").addClass("shrink");
+	$("#projects").addClass("shrink");
+	$("#coursework").addClass("shrink");
+	$("#work").addClass("shrink");
+	$("#skills").addClass("shrink");
+}
+
+$("#aboutMe").click(function() {
+	collapseBtns();
 });
 
 $("#projects").click(function() {
-	$(this).animate({
-		marginLeft: "0",
-    	bottom: "0",
-    	right: "0",
-	});
-	
-	$(this).addClass("shrink");
+	collapseBtns();
 });
 
 $("#coursework").click(function() {
-	$(this).animate({
-		marginLeft: "0",
-    	bottom: "0",
-    	right: "0",
-	});
-	
-	$(this).addClass("shrink");
+	collapseBtns();
 });
 
 $("#work").click(function() {
-	$(this).animate({
-		marginLeft: "0",
-    	bottom: "0",
-    	right: "0",
-	});
-	
-	$(this).addClass("shrink");
+	collapseBtns();
 });
 
 $("#skills").click(function() {
-	$(this).animate({
-		marginLeft: "0",
-    	bottom: "0",
-    	right: "0",
-	});
-	
-	$(this).addClass("shrink");
+	collapseBtns();
 });
 
 $("#aboutMe").hover(function() {
