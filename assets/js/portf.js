@@ -98,19 +98,31 @@ $("#aboutMe").click(function() {
 });
 
 $("#projects").click(function() {
-	collapseBtns();
+	if (!btnShrunk) { collapseBtns(); btnShrunk = true;}
+	$('html, body').animate({
+        scrollTop: $("#projectsPG").offset().top /*scrolls to the About Me page*/
+    }, 900);
 });
 
 $("#coursework").click(function() {
-	collapseBtns();
+	if (!btnShrunk) { collapseBtns(); btnShrunk = true;}
+	$('html, body').animate({
+        scrollTop: $("#courseworkPG").offset().top /*scrolls to the About Me page*/
+    }, 900);
 });
 
 $("#work").click(function() {
-	collapseBtns();
+	if (!btnShrunk) { collapseBtns(); btnShrunk = true;}
+	$('html, body').animate({
+        scrollTop: $("#workPG").offset().top /*scrolls to the About Me page*/
+    }, 900);
 });
 
 $("#skills").click(function() {
-	collapseBtns();
+	if (!btnShrunk) { collapseBtns(); btnShrunk = true;}
+	$('html, body').animate({
+        scrollTop: $("#skillsPG").offset().top /*scrolls to the About Me page*/
+    }, 900);
 });
 
 $("#aboutMe").hover(function() {
