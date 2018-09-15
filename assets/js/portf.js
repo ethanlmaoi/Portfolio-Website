@@ -7,30 +7,80 @@ $(document).ready(function() {
     });
 	
 	$("#aboutMe").delay(2300).animate({
-		marginLeft: "15%",
+		marginLeft: "25%",
 		opacity: "1",
     }, 2000);
 	
 	$("#projects").delay(2300).animate({
-		marginLeft: "30%",
+		marginLeft: "38%",
 		opacity: "1",
     }, 2000);
 	
 	$("#coursework").delay(2300).animate({
-		marginLeft: "45%",
+		marginLeft: "51%",
 		opacity: "1",
     }, 2000);
 	
 	$("#work").delay(2300).animate({
-		marginLeft: "60%",
+		marginLeft: "64%",
 		opacity: "1",
     }, 2000);
 	
 	$("#skills").delay(2300).animate({
-		marginLeft: "75%",
+		marginLeft: "77%",
 		opacity: "1",
     }, 2000);
 
+});
+
+$("#aboutMe").click(function() {
+	$(this).animate({
+		marginLeft: "0",
+    	bottom: "0",
+    	right: "0",
+	});
+	
+	$(this).addClass("shrink");
+});
+
+$("#projects").click(function() {
+	$(this).animate({
+		marginLeft: "0",
+    	bottom: "0",
+    	right: "0",
+	});
+	
+	$(this).addClass("shrink");
+});
+
+$("#coursework").click(function() {
+	$(this).animate({
+		marginLeft: "0",
+    	bottom: "0",
+    	right: "0",
+	});
+	
+	$(this).addClass("shrink");
+});
+
+$("#work").click(function() {
+	$(this).animate({
+		marginLeft: "0",
+    	bottom: "0",
+    	right: "0",
+	});
+	
+	$(this).addClass("shrink");
+});
+
+$("#skills").click(function() {
+	$(this).animate({
+		marginLeft: "0",
+    	bottom: "0",
+    	right: "0",
+	});
+	
+	$(this).addClass("shrink");
 });
 
 $("#aboutMe").hover(function() {
