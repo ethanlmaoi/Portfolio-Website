@@ -1,6 +1,14 @@
 
 var btnShrunk = false; // becomes true when they shrink and go to the side
 
+
+$(window).scroll(function() {
+	var $height = $(window).scrollTop();
+  	if ($height > 600) {
+		alert("weet");
+	}
+});
+
 $(document).ready(function() {
     $(".outlineMe").fadeIn(2300);
 	
