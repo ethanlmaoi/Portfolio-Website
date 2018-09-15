@@ -47,14 +47,14 @@ function collapseBtns()
 	
 	$("#aboutMe").animate({
 		marginLeft: "0",
-    	bottom: "400",
+    	bottom: "800",
     	right: "0",
 		height: "150px",
     	width: "200px",
 	});
 	$("#projects").animate({
 		marginLeft: "0",
-    	bottom: "500",
+    	bottom: "700",
     	right: "0",
 		height: "150px",
     	width: "200px",
@@ -69,7 +69,7 @@ function collapseBtns()
 	});
 	$("#work").animate({
 		marginLeft: "0",
-    	bottom: "700",
+    	bottom: "500",
     	right: "0",
 		marginBottom: "0",
 		height: "150px",
@@ -77,7 +77,7 @@ function collapseBtns()
 	});
 	$("#skills").animate({
 		marginLeft: "0",
-    	bottom: "800",
+    	bottom: "400",
     	right: "0",
 		marginBottom: "0",
 		height: "150px",
