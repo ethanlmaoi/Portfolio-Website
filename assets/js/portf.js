@@ -2,34 +2,34 @@ $(document).ready(function() {
     $(".outlineMe").fadeIn(2300);
 	
 	$(".outlineMe").animate({
-        left: '120px', // how far you want to move to the left
+        left: '46px', // how far you want to move to the left
         opacity: '1.0', // how much you want to blend
     });
 	
 	$("#aboutMe").delay(2300).animate({
 		marginLeft: "25%",
 		opacity: "1",
-    }, 2000);
+    }, 1500);
 	
 	$("#projects").delay(2300).animate({
 		marginLeft: "38%",
 		opacity: "1",
-    }, 2000);
+    }, 1500);
 	
 	$("#coursework").delay(2300).animate({
 		marginLeft: "51%",
 		opacity: "1",
-    }, 2000);
+    }, 1500);
 	
 	$("#work").delay(2300).animate({
 		marginLeft: "64%",
 		opacity: "1",
-    }, 2000);
+    }, 1500);
 	
 	$("#skills").delay(2300).animate({
 		marginLeft: "77%",
 		opacity: "1",
-    }, 2000);
+    }, 1500);
 
 });
 

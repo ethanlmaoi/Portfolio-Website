@@ -31,7 +31,7 @@ h1 {
 
 .shrink {
 	transition: all 500ms linear;
-	transform: scale(0.2, 0.2);
+	transform: scale(0.25, 0.25);
 }
 
 #aboutMe {
@@ -81,6 +81,7 @@ h1 {
 */
  	height: 600px;
  	position: relative;
+	background-position: top;
 	margin-top: 0px;
 }
 
@@ -88,7 +89,6 @@ h1 {
   	position: absolute;	
 	height: 350px;
 	width: 350px;
-	border: 1px solid red;
 }
 
 .circleIcon {
