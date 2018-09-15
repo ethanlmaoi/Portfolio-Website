@@ -91,9 +91,9 @@ function collapseBtns()
 }
 
 $("#aboutMe").click(function() {
-	if (!btnShrunk) { collapseBtns(); }
+	if (!btnShrunk) { collapseBtns(); btnShrunk = true;}
 	$('html, body').animate({
-        scrollTop: $("#interactive").offset().top
+        scrollTop: $("#aboutMePG").offset().top /*scrolls to the About Me page*/
     }, 900);
 });
 

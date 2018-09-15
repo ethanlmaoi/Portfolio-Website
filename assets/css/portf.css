@@ -4,7 +4,7 @@ h1 {
 	text-align: center;
 }
 
-#cover {
+.pText {
 	font-family: 'Quicksand', sans-serif;
 	text-align: center;
 	font-size: 225%;
@@ -13,10 +13,37 @@ h1 {
 	padding-top: 5%;
 }
 
-#interactive {
+#aboutMePG {
 	width: 100%;
 	height: 100vh;
+}
+
+#projectsPG {
+	width: 100%;
+	height: 100vh;
+}
+
+#courseworkPG {
+	width: 100%;
+	height: 100vh;
+}
+
+#workPG {
+	width: 100%;
+	height: 100vh;
+}
+
+#skillsPG {
+	width: 100%;
+	height: 100vh;
+}
+
+.blueBG {
 	background: #C4F3FF;
+}
+
+.whiteBG {
+	background: white;
 }
 
 .outlineMe {
