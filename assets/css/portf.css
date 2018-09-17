@@ -114,7 +114,7 @@ h1 {
 .iconContainer {
   	position: absolute;	
 	height: 350px;
-	width: 350px;
+	width: 350px; /*needs to be same as hoverFXContainer marginTop*/
 }
 
 .circleIcon {
@@ -139,7 +139,7 @@ h1 {
 .hoverFXContainer {
 	height: 350px;
 	width: 350px;
-	position: absolute;
+	position: absolute; /*needs to be same as iconContainer marginTop*/
 }
 
 .hoverFX {
