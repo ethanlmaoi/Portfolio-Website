@@ -4,13 +4,61 @@ h1 {
 	text-align: center;
 }
 
-.pText {
+#play_store_container {
+	width: 250px;
+	margin-left: 175px;
+	margin-top: 30px;
+}
+
+#play_store {
+	width: 250px;
+}
+
+#cambrio_icon_container {
+	width: 200px;
+	height: 200px;
+	margin-left: 200px;
+	margin-top: 20px;
+}
+
+#cambrio_icon {
+	width: 200px;
+	height: 200px;
+}
+
+#cambrio_txt_container {
+	font-family: 'Quicksand', sans-serif;
+	font-size: 200%;
+	height: 90px;
+	width: 280px;
+	margin-left: 176.5px;
+	margin-bottom: 5px;
+	margin-top: 80px;
+}
+
+#cambrio_txt {
+	font-family: 'Quicksand', sans-serif;
+	font-size: 200%;
+	height: 90px;
+	width: 280px
+}
+
+.pTitle {
 	font-family: 'Quicksand', sans-serif;
 	text-align: center;
-	font-size: 225%;
+	font-size: 300%;
+	font-weight: 150%;
 	margin-right: 15%;
 	margin-left: 15%;
 	padding-top: 5%;
+}
+
+.pText {
+	font-family: 'Quicksand', sans-serif;
+	text-align: center;
+	font-size: 150%;
+	margin-right: 15%;
+	margin-left: 15%;
 }
 
 #aboutMePG {
