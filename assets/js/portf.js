@@ -12,14 +12,14 @@ $("#cambrio_icon").click(function() {
 	});
 	
 	$("#cambrio_icon_container").animate({
-		height: "1000px",
-		width: "700px",
+		height: "850px",
+		width: "480px",
 		backgroundColor: "#E3E3E3",
 	});
 	
 	$("#cambrio_container").animate({
-		marginLeft: "590px",
-		width: "700px",
+		marginLeft: "705px",
+		width: "480px",
 		borderRadius: "15px",
 	});
 	
@@ -34,6 +34,10 @@ $("#cambrio_icon").click(function() {
 	$('html, body').animate({
         scrollTop: $("#cambrio_icon_container").offset().top
     }, 900);
+	
+	$("#cambrio_preview").delay(1000).animate({
+		opacity: "100",
+	});
 });
 
 $(window).scroll(function() {
