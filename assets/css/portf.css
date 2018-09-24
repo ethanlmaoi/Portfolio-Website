@@ -14,7 +14,6 @@ h1 {
 }
 
 #play_store_container {
-	width: 400px;
 	margin-top: 30px;
 }
 
@@ -23,21 +22,21 @@ h1 {
 }
 
 #cambrio_container {
-	margin-left: 225px;
-	width: 400px;
+	margin-left: 225px; /*750*/
+	width: 400px; /*500*/
 	text-align: center;
 	padding-bottom: 30px;
 	padding-top: 20px;
 	background-color: #404040;
-	border-radius: 50px;
+	border-radius: 15px;
 	transition: all 500ms linear;
 }
 
 #cambrio_icon_container {
-	height: 350px;
-	width: 400px;
+	height: 350px; /*600*/
+	width: 400px; /*500*/
 	background-color: #A8A8A8;
-	border: 1px solid blue;
+	transition: all 500ms linear;
 }
 
 #cambrio_icon {

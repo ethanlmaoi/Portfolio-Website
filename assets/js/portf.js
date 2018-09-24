@@ -4,10 +4,31 @@ var btnShrunk = false; // becomes true when they shrink and go to the side
 
 // animate into phone
 $("#cambrio_icon").click(function() {
+	
 	$("#cambrio_container").addClass("rotate");
+	
+	$("#cambrio_icon_container").animate({
+		height: "1000px",
+		width: "700px",
+		backgroundColor: "#E3E3E3",
+	});
+	
+	$("#cambrio_container").animate({
+		marginLeft: "590px",
+		width: "700px",
+	});
+	
 	$("#cambrio_icon").animate({
 		opacity: "0"
 	});
+	
+	$("#cambrio_txt").animate({
+		opacity: "0"
+	});
+	
+	$('html, body').animate({
+        scrollTop: $("#cambrio_icon_container").offset().top
+    }, 900);
 });
 
 $(window).scroll(function() {
