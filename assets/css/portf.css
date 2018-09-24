@@ -3,44 +3,54 @@ h1 {
 	padding-bottom: 25px;
 	text-align: center;
 }
+	
+.rotate {
+	transform: rotate(90deg);
+}
+
+#github_mark {
+	width: 75px;
+	margin-left: 5px;
+}
 
 #play_store_container {
-	width: 250px;
-	margin-left: 175px;
+	width: 400px;
 	margin-top: 30px;
 }
 
 #play_store {
-	width: 250px;
+	width: 200px;
+}
+
+#cambrio_container {
+	margin-left: 225px;
+	width: 400px;
+	text-align: center;
+	padding-bottom: 30px;
+	padding-top: 20px;
+	background-color: #404040;
+	border-radius: 50px;
+	transition: all 500ms linear;
 }
 
 #cambrio_icon_container {
-	width: 200px;
-	height: 200px;
-	margin-left: 200px;
-	margin-top: 20px;
+	height: 350px;
+	width: 400px;
+	background-color: #A8A8A8;
+	border: 1px solid blue;
 }
 
 #cambrio_icon {
 	width: 200px;
 	height: 200px;
-}
-
-#cambrio_txt_container {
-	font-family: 'Quicksand', sans-serif;
-	font-size: 200%;
-	height: 90px;
-	width: 280px;
-	margin-left: 176.5px;
-	margin-bottom: 5px;
-	margin-top: 80px;
+	margin-top: 75px;
+	border: 1px solid red;
 }
 
 #cambrio_txt {
-	font-family: 'Quicksand', sans-serif;
-	font-size: 200%;
-	height: 90px;
-	width: 280px
+	font-family: 'News Cycle', sans-serif;
+	color: #F6F6E8;
+	font-size: 400%;
 }
 
 .pTitle {
@@ -63,22 +73,22 @@ h1 {
 
 #aboutMePG {
 	width: 100%;
-	height: 100vh;
+	height: 2000px;
 }
 
 #projectsPG {
 	width: 100%;
-	height: 100vh;
+	height: 2000px;
 }
 
 #courseworkPG {
 	width: 100%;
-	height: 100vh;
+	height: 2000px;
 }
 
 #workPG {
 	width: 100%;
-	height: 100vh;
+	height: 2000px;
 }
 
 #skillsPG {
@@ -246,4 +256,3 @@ h1 {
     transform: translateY(150%);
 	opacity: 0;
 }
-

@@ -2,10 +2,17 @@
 var btnShrunk = false; // becomes true when they shrink and go to the side
 
 
+// animate into phone
+$("#cambrio_icon").click(function() {
+	$("#cambrio_container").addClass("rotate");
+	$("#cambrio_icon").animate({
+		opacity: "0"
+	});
+});
+
 $(window).scroll(function() {
 	var $height = $(window).scrollTop();
   	if ($height > 600) {
-		
 	}
 });
 
