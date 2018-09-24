@@ -24,11 +24,12 @@ h1 {
 #cambrio_container {
 	margin-left: 225px; /*750*/
 	width: 400px; /*500*/
+	margin-top: 200px;
 	text-align: center;
 	padding-bottom: 30px;
 	padding-top: 20px;
 	background-color: #404040;
-	border-radius: 15px;
+	border-radius: 25px;
 	transition: all 500ms linear;
 }
 
@@ -43,7 +44,6 @@ h1 {
 	width: 200px;
 	height: 200px;
 	margin-top: 75px;
-	border: 1px solid red;
 }
 
 #cambrio_txt {

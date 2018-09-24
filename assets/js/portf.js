@@ -2,10 +2,14 @@
 var btnShrunk = false; // becomes true when they shrink and go to the side
 
 
-// animate into phone
+// animate into phone screen
 $("#cambrio_icon").click(function() {
 	
 	$("#cambrio_container").addClass("rotate");
+	
+	$("#play_store_container").animate({
+		opacity: "0",
+	});
 	
 	$("#cambrio_icon_container").animate({
 		height: "1000px",
@@ -16,6 +20,7 @@ $("#cambrio_icon").click(function() {
 	$("#cambrio_container").animate({
 		marginLeft: "590px",
 		width: "700px",
+		borderRadius: "15px",
 	});
 	
 	$("#cambrio_icon").animate({
