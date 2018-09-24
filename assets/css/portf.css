@@ -4,6 +4,16 @@ h1 {
 	text-align: center;
 }
 	
+#project_text_1 {
+	position: absolute;
+	font-family: 'Quicksand', sans-serif;
+	font-size: 300%;
+	right: 0;
+	margin-right: 400px;
+	margin-top: 200px;
+	
+}
+
 .rotate {
 	transform: rotate(90deg);
 }
@@ -45,7 +55,7 @@ h1 {
 #cambrio_icon_container {
 	height: 350px; /*600*/
 	width: 400px; /*500*/
-	background-color: #A8A8A8;
+	background-color: #5F5F5F;
 	transition: all 500ms linear;
 }
 
