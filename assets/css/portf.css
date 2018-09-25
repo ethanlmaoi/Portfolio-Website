@@ -18,6 +18,64 @@ h1 {
 	transform: rotate(90deg);
 }
 
+#container {
+	width: 100%;
+}
+
+.left {
+	float: left;
+}
+
+.center {
+	margin: 0 auto;
+}
+
+
+/* MOOD BIBLE */
+
+#github_mark_2 {
+	width: 75px;
+	margin-left: 5px;
+}
+
+#play_store_container_2 {
+	margin-top: 30px;
+}
+
+#play_store_2 {
+	width: 200px;
+}
+
+#mood_container {
+	position: absolute;	
+	width: 400px; /*500*/
+	text-align: center;
+	padding-bottom: 30px;
+	padding-top: 20px;
+	background-color: #404040;
+	border-radius: 25px;
+	transition: all 500ms linear;
+}
+
+#mood_icon_container {
+	height: 350px; /*600*/
+	width: 400px; /*500*/
+	background-color: aliceblue;
+	transition: all 500ms linear;
+}
+
+#mood_icon {
+	height: 200px;
+	margin-top: 75px;
+}
+
+#mood_txt {
+	font-family: 'News Cycle', sans-serif;
+	color: #F6F6E8;
+	font-size: 400%;
+}
+
+/* CAMBRIO */
 #github_mark {
 	width: 75px;
 	margin-left: 5px;
@@ -41,6 +99,7 @@ h1 {
 }
 
 #cambrio_container {
+	position: absolute;
 	margin-left: 225px; /*750*/
 	width: 400px; /*500*/
 	margin-top: 100px;
@@ -101,7 +160,7 @@ h1 {
 
 #courseworkPG {
 	width: 100%;
-	height: 2000px;
+	height: 800px;
 }
 
 #workPG {
