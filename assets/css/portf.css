@@ -33,10 +33,15 @@ h1 {
 
 /* MOOD BIBLE */
 
+#container_mood {
+	
+}
+
 #mood_picture {
-	width: 500px;
-	margin-left: 1300px;
-	margin-top: 800px;
+	position: absolute;
+	width: 450px;
+	margin-left: 1200px;
+	margin-top: 1100px;
 }
 
 #github_mark_2 {
