@@ -3,7 +3,19 @@ h1 {
 	padding-bottom: 25px;
 	text-align: center;
 }
+
+#medals {
+	margin-left: 292px;
+	margin-top: 25px;
+}
 	
+#piano_picture {
+	width: 800px;
+	margin-left: 100px;
+	margin-top: 900px;
+}
+
+
 #project_text_1 {
 	position: absolute;
 	font-family: 'Quicksand', sans-serif;
@@ -33,6 +45,12 @@ h1 {
 
 /* MOOD BIBLE */
 
+#view_on_github {
+	width: 250px;
+	margin-top: 1100px;
+	margin-left: 467px;
+}
+
 #container_mood {
 	
 }
@@ -41,7 +59,7 @@ h1 {
 	position: absolute;
 	width: 450px;
 	margin-left: 1200px;
-	margin-top: 1100px;
+	margin-top: 1000px;
 }
 
 #github_mark_2 {
@@ -159,6 +177,17 @@ h1 {
 	margin-left: 15%;
 }
 
+.pText_2 {
+	position: absolute;
+	font-family: 'Quicksand', sans-serif;
+	font-size: 150%;
+	margin-left: 10%;
+	width: 800px;
+	height: 600px;
+	margin-top: 1300px;
+	text-align: center;
+}
+
 #aboutMePG {
 	width: 100%;
 	height: 2000px;
@@ -166,7 +195,7 @@ h1 {
 
 #projectsPG {
 	width: 100%;
-	height: 2000px;
+	height: 4000px;
 }
 
 #courseworkPG {
