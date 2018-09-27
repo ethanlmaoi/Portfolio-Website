@@ -5,6 +5,10 @@ var btnShrunk = false; // becomes true when they shrink and go to the side
 // animate into phone screen
 $("#cambrio_icon").click(function() {
 	
+	$("#project_text_1").animate({
+		opacity: "0",
+	});
+	
 	$("#cambrio_container").addClass("rotate");
 	
 	$("#play_store_container").animate({

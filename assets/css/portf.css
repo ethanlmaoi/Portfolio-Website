@@ -33,6 +33,12 @@ h1 {
 
 /* MOOD BIBLE */
 
+#mood_picture {
+	width: 500px;
+	margin-left: 1300px;
+	margin-top: 800px;
+}
+
 #github_mark_2 {
 	width: 75px;
 	margin-left: 5px;
@@ -91,7 +97,7 @@ h1 {
 
 #cambrio_preview {
 	position: absolute;
-	margin-top: 403px;
+	margin-top: 419px;
 	margin-left: 520px;
 	opacity: 0;
 	z-index: 1;
